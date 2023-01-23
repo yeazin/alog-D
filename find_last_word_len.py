@@ -31,5 +31,10 @@ class Solution(object):
         :type s: str
         :rtype: int
         """
-
+        """
+        First, split the word by space 
+        Second, Strip the space in word
+        third, measure the len
+        """ 
+   
         return len(s.strip().split(" ")[-1])
